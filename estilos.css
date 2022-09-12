@@ -1,0 +1,61 @@
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+* {
+  list-style:none;
+  text-decoration:none;
+  background-color:rgb(231, 231, 213);
+}
+
+
+body{
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+#foot{
+  font-family: monospace;
+  transform: translateY(650px) translateX(700px);
+  position:absolute;
+}
+
+#montañas {
+color: #000;
+font-size:3.5px;
+position: absolute;
+transform: translateX(240px) translateY(200px);
+float: left;
+}
+
+#papas {
+font-size: 3px;
+position:absolute;
+transform: translateX(638px) translateY(200px);
+float: left;
+}
+
+#manos {
+font-size:2px;
+position: absolute;
+transform: translateX(980px) translateY(210px);
+float: left;
+}
+
+.nav ul li a {
+  background-color: beige;
+  display: inline;
+}
+
+.nav li ul {
+  display:none;
+  position: relative;
+}
+
+.nav li:hover > ul {
+  display: inline;
+  }
+
+
